@@ -1,0 +1,124 @@
+/* Footer */
+footer{
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	padding: 40px;
+}
+
+footer section{
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+footer section:nth-child(3){
+	flex-grow: 1;
+	display: inline-block;
+	text-align: center;
+}
+
+footer section ul li a:hover{
+	color: black;
+	text-shadow: 0 0 10px white;
+}
+
+footer section ul{
+	margin: 0;
+	list-style: none;
+}
+
+footer li + li{
+	margin-top: 3px;
+}
+	/* 2:nd Section; */
+
+	footer section:nth-child(2) ul li a::before{
+		content: "";
+	    display: inline-block;
+	    width: 20px;
+	    height: 15px;
+	    margin-right: 3px;
+	}
+
+	footer section ul li a[href$="twitter.com"]::before{
+		background-image: url("../pictures/twitter.png");
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	footer section ul li a[href$="facebook.com"]::before{
+		background-image: url("../pictures/facebook.png");
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	footer section ul li a[href$="instagram.com"]::before{
+		background-image: url("../pictures/instagram.png");
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	/* 3:rd Section; */
+
+	footer section:nth-child(3) h3{
+		margin-top: 0px;
+	}
+
+	footer section input[type$="email"]{
+		padding: 5px 20px 5px 20px;
+		text-align: center;
+		border: 1px solid white;
+		border-radius: 10px 0 0 10px;
+		background-color: black;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	footer section input[type$="submit"]{
+		padding: 5px 10px 5px 10px;
+		border: 1px solid white;
+		margin-left: 3px;
+		border-radius: 0 10px 10px 0;
+		background-color: black;
+		color: white;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	footer section input[type$="email"]:hover{
+		box-shadow: -1px 0 7px white;
+	}
+
+	footer section input[type$="submit"]:hover{
+		box-shadow: 1px 0 7px white;
+	}
+
+
+	/* 4:th Section; */
+
+	footer section:nth-child(4) ul li:nth-child(3){
+		padding-top: 10px;
+	}
+
+	footer section:nth-child(4) ul li:nth-child(3) a{
+		color: cadetblue;
+	}
+
+	footer section:nth-child(4) ul li:nth-child(3) a:hover{
+		text-shadow: 0px 0px 2px white;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
