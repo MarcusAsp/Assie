@@ -13,11 +13,11 @@ var $pic5 = $('.top-fashionist-5');
     $pic3.addClass('visible');
     $pic4.addClass('visible');
     $pic5.addClass('visible');
- } else {
+   }else {
     $pic1.removeClass('visible');
     $pic2.removeClass('visible');
     $pic3.removeClass('visible');
     $pic4.removeClass('visible');
     $pic5.removeClass('visible');
- }
-}, { offset: '80%' });
+   }
+   }, { offset: '80%' });
