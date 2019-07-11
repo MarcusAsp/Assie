@@ -192,7 +192,7 @@ ul.icon-menu li a{
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	padding: 100px 0 20px 0;
+	padding: 100px 0 100px 0;
 }
 	/* ARTICLE ASIDE */
 	.news aside{
@@ -651,7 +651,6 @@ nav.main-menu input:checked ~ .hamburgerIcon span:nth-last-child(3)
 
 	.news{
 		flex-direction: column;
-		padding: 100px 0 100px 0;
 	}
 		/* ARTICLE ASIDE */
 		.news aside{
